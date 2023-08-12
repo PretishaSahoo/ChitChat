@@ -1,0 +1,124 @@
+.logo{
+    display:block;
+    margin:auto;
+    width:70px;
+}
+.nav{
+    background-color:gold;
+    position:fixed;
+    width:100%;
+    height:80px;
+    top: 0;
+    left:0;
+    right:0;
+    color:white;
+}
+.AppName{
+    color:black;
+}
+.mainBox{
+    margin-top:85px;
+    margin-bottom:25px;
+    width:100%;
+    height:580px;
+    overflow-y:auto;
+    /* border:2px solid rgb(14, 10, 10);  */
+    padding:10px;
+    overflow-x: hidden;
+}
+.message{
+    width:30%;
+    margin:10px;
+    padding-left:6px;
+    padding-right:6px;
+    padding-top:0.5px;
+    padding-bottom:0.2px;
+    border-radius:15px;
+    word-wrap: break-word;
+}
+.left{
+    background-color: rgb(217, 207, 207);
+    margin:10px;
+    float:left;
+    clear:both;
+    width:30%;
+    margin:10px;
+    padding-left:6px;
+    padding-right:6px;
+    padding-top:0.5px;
+    padding-bottom:0.2px;
+    border-radius:15px;
+    word-wrap: break-word;
+}
+.right{
+    background-color:rgb(222, 226, 179);
+    margin:10px;
+    float:right;
+    clear:both;
+    width:30%;
+    margin:10px;
+    padding-left:6px;
+    padding-right:6px;
+    padding-top:0.5px;
+    padding-bottom:0.2px;
+    border-radius:15px;
+    word-wrap: break-word;
+    
+}
+body{
+    height:100vh;
+    background-image:linear-gradient(rgb(133, 123, 123),rgb(244, 246, 240));
+    background-position:fixed;
+    overflow: hidden;
+}
+#send-container{
+    display:block;
+    margin:auto;
+    /*above two steps to centre element*/
+    text-align:center;
+    max-width:985px;
+    width:100%;
+    border-radius:34%;
+}
+#messageInp{
+    border-radius:34px;
+    width:65%;
+    border:2px solid white;
+    height:5vh;
+}
+.send{
+    cursor:pointer;
+    background-color: rgb(24, 19, 19);
+    position:fixed;
+    width:100%;
+    padding-top:15px;
+    padding-bottom:10px;
+    bottom:0;
+    left:0;
+    right:0;
+}
+.mid {
+    background-color: rgb(140, 214, 228);
+    margin: 2px auto; /* Using 'auto' for left and right margins */
+    clear: both;
+    display: block; /* This is not necessary if the element is already a block-level element */
+    width: 200px; /* Set the desired width */
+}
+h2{
+    font-family:Arial, Helvetica, sans-serif;
+}
+.wave{
+    display: flex;
+    justify-content: center;
+    height:200px;
+}
+.welcome{
+    color:black;
+    text-align: center;
+}
+
+  
+ 
+
+
+  
